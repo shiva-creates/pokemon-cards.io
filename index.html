@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/icon.png" type="image" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Poke Cards</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./images/logo.png" alt="logo" />
+    </div>
+    <div class="container">
+      <form class="form" id="login">
+     <h1 class="form-title">LOG<span>IN</span></h1>
+        <div class="form-msg form-msg-error"></div>
+        <div class="form-input-container">
+          <input type="text" class="form-input" id="username" onfocus="onFocus()" autofocus placeholder="Username or Email" />
+        </div>
+        <div class="form-input-container">
+          <input type="password" class="form-input" id="password" onfocus="onFocus()" placeholder="Password" />
+        </div>
+        <button class="form-btn" id="submit" type="submit">LOG IN</button>
+        <p class="form-text">
+          <a href="#" class="form-link">Forgotten your password?</a>
+          <p class="pass-hint hint">Hint: Try pikachu</p>
+        </p>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

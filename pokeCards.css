@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+body {
+  background-color: rgb(115, 160, 245);
+}
+.navbar {
+  background-color: black;
+  height: 80px;
+}
+
+.navbar img {
+  margin: 0 1rem;
+  width: 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url(./images/bg-cards.jpg);
+  /* background-size: cover; */
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.bg-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  height: 90%;
+  width: 95%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+.pokemon-card {
+  margin: 2rem 1.5rem;
+  width: 250px;
+  background-color: #ffffffd1;
+  border-radius: 10px;
+  text-align: center;
+  border: 4px solid rgb(252, 252, 136);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 1);
+}
+.pokemon-card h3,
+span {
+  margin: 0.2rem;
+}
+.poke-img-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.pokemon-image {
+  position: absolute;
+  min-width: 130px;
+  max-width: 180px;
+  margin-left: -80px;
+  margin-top: -20px;
+}
+
+.poke-id {
+  font: 0.8rem;
+  color: gray;
+}
+.poke-name {
+  font-weight: bolder;
+}
+.poke-type {
+  display: flex;
+  justify-content: space-around;
+}
+.poke-type span {
+  font-size: 0.8rem;
+  padding: 0 20px;
+  border-radius: 25px;
+}
+.poke-powers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.poke-powers p {
+  align-items: center;
+  width: 85%;
+  padding: 0.2rem 0;
+  font-size: 0.8rem;
+  border-radius: 25px;
+}
+.poke-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.poke-stats div {
+  padding: 0.3rem;
+}
+
+.border {
+  border-right: 1px solid black;
+}
+
+.hp {
+  padding: 0 12px;
+}
